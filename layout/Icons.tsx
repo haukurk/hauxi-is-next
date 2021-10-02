@@ -49,11 +49,11 @@ type SocialIconProps = {
 
 const IconByType: React.FC<SocialIconProps> = (props) => {
   switch (props.type) {
-    case "github":
+    case "linkedin":
       return <LinkedInIcon {...props} />;
     case "facebook":
       return <FacebookIcon {...props} />;
-    case "linkedin":
+    case "twitter":
       return <TwitterIcon {...props} />;
     case "github":
       return <GithubIcon {...props} />;
