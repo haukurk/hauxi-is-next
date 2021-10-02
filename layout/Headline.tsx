@@ -40,6 +40,15 @@ const Container = styled.div`
       color: #403b66;
     }
   }
+
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 36px;
+    }
+    h5 {
+      font-size: 16px;
+    }
+  }
 `;
 
 const Headline: React.FC = () => {

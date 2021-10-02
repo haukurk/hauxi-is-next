@@ -14,6 +14,7 @@ const LandingSectionContainer = styled.div`
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  padding: 24px;
 `;
 
 const Card = styled.div`
