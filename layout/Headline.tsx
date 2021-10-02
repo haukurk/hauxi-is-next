@@ -59,7 +59,7 @@ const Headline: React.FC = () => {
       <p>
         Currently in the role as the CTO for the digital product agency{" "}
         <a href="https://www.gangverk.is">Gangverk</a> where I work with really
-        talented people that are create awesome products for our clients.
+        talented people that are creating awesome products for our clients.
       </p>
     </Container>
   );
