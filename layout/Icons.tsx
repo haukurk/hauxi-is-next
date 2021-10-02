@@ -1,17 +1,46 @@
 import {
-  Github,
+  TwitterSquare,
+  GithubSquare,
   Linkedin,
-  Twitter,
-  Facebook,
-} from "@styled-icons/boxicons-logos";
-import { Keybase } from "@styled-icons/fa-brands/";
+  FacebookSquare,
+} from "@styled-icons/fa-brands/";
 import styled from "styled-components";
 
-const LinkedInIcon = styled(Linkedin)``;
-const TwitterIcon = styled(Twitter)``;
-const FacebookIcon = styled(Facebook)``;
-const GithubIcon = styled(Github)``;
-const KeybaseIcon = styled(Keybase)``;
+const LinkedInIcon = styled(Linkedin)`
+  width: 32px;
+  color: #403b66;
+  :hover {
+    color: #17142b;
+  }
+`;
+const TwitterIcon = styled(TwitterSquare)`
+  width: 32px;
+  color: #403b66;
+  :hover {
+    color: #17142b;
+  }
+`;
+const FacebookIcon = styled(FacebookSquare)`
+  width: 32px;
+  color: #403b66;
+  :hover {
+    color: #17142b;
+  }
+`;
+const GithubIcon = styled(GithubSquare)`
+  width: 32px;
+  color: #403b66;
+  :hover {
+    color: #17142b;
+  }
+`;
+const KeybaseIcon = styled(TwitterSquare)`
+  width: 32px;
+  color: #403b66;
+  :hover {
+    color: #17142b;
+  }
+`;
 
 type SocialType = "facebook" | "github" | "twitter" | "linkedin" | "keybase";
 type SocialIconProps = {

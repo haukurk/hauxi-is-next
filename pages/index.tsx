@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import Headline from "../layout/Headline";
+import PGP from "../layout/PGP";
+import SocialContacts from "../layout/SocialContacts";
 
 const LandingSectionContainer = styled.div`
   display: flex;
@@ -22,7 +24,9 @@ const Home: React.FC = () => {
   return (
     <LandingSectionContainer>
       <Card>
-        <Headline>Hæ</Headline>
+        <Headline />
+        <SocialContacts />
+        <PGP />
       </Card>
     </LandingSectionContainer>
   );

@@ -49,17 +49,17 @@ const Headline: React.FC = () => {
       <h2>
         I&apos;m <b>Haukur</b> <br /> <b>a</b> guy that{" "}
         <Image width={32} height={32} alt="heart" title="loves" src={Heart} />{" "}
-        software developement.
+        software developement
       </h2>
       <p>
-        I have passion for software developement and love creating digital
-        products, infrastructure design, and software architectures. I&apos;m
-        also just an all-around technology type-of-guy.
+        I have passion for software developement and I love creating digital
+        products. I&apos;m also just an all-around technology type-of-guy always
+        trying to find the next interesting thing to dive into.
       </p>
       <p>
         Currently in the role as the CTO for the digital product agency{" "}
         <a href="https://www.gangverk.is">Gangverk</a> where I work with really
-        talented people that create awesome products with our clients.
+        talented people that are create awesome products for our clients.
       </p>
     </Container>
   );
