@@ -1,7 +1,38 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import { AppProps } from "next/dist/shared/lib/router/router";
+import { createGlobalStyle, ThemeProvider } from "styled-components";
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+const GlobalStyle = createGlobalStyle`
+  html, body, #__next {
+    height: 100%;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #8e43e7;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+`;
+
+const theme = {
+  colors: {
+    primary: "#0070f3",
+    background: "#F9F7FD",
+  },
+};
+
+export default function App({ Component, pageProps }: AppProps) {
+  return (
+    <>
+      <GlobalStyle />
+      <ThemeProvider theme={theme}>
+        <Component {...pageProps} />
+      </ThemeProvider>
+    </>
+  );
 }
-export default MyApp
