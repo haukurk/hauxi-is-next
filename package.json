@@ -17,6 +17,7 @@
     "styled-icons": "^10.43.0"
   },
   "devDependencies": {
+    "@types/gtag.js": "^0.0.7",
     "@types/react": "17.0.26",
     "babel-plugin-styled-components": "^1.13.2",
     "eslint": "7.32.0",
