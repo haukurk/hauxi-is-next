@@ -58,10 +58,10 @@ const Headline: React.FC = () => {
       <h2>
         I&apos;m <b>Haukur</b> <br /> <b>a</b> dude that{" "}
         <Image width={32} height={32} alt="heart" title="loves" src={Heart} />{" "}
-        software developement
+        software development
       </h2>
       <p>
-        I have passion for software developement and I love creating digital
+        I have passion for software development and I love creating digital
         products. I&apos;m also just an all-around technology type of guy always
         trying to find the next interesting thing to dive into.
       </p>
